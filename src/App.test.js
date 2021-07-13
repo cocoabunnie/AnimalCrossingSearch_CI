@@ -1,9 +1,14 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
+/*
+NOTES
+~ Error message says "Treating warnings as errors.... maybe that's something?
+~ screen = document.body 
+*/
 test('renders learn react link', () => {
   render(<App />);
   //const title = "Animal";
-  //const linkElement = screen.getByText(title);
-  //expect(linkElement).toBeInTheDocument();
+  const linkElement = screen.getByText('Animal', { exact: false })
+  expect(linkElement).toBeInTheDocument();
 });

@@ -8,7 +8,7 @@ class About extends Component{
                 <h1 className="aboutPageHeader">About</h1>
                 <div className="aboutText">
                     <div className="aboutImage">
-                        <img src="https://media.giphy.com/media/KDJNQ4O14e9287zR9n/giphy.gif"/>
+                        <img alt='' src="https://media.giphy.com/media/KDJNQ4O14e9287zR9n/giphy.gif"/>
                     </div>
                     <p>
                         Hello!<br/>

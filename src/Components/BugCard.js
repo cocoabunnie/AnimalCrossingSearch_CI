@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function BugCard(props){
     const resultPresent = props.resultPresent

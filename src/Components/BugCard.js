@@ -8,7 +8,7 @@ function BugCard(props){
             <div className="bugInfoCard">
 
                 <div className="bugCardImage">
-                    <img src={props.imageURL}/>
+                    <img alt='' src={props.imageURL}/>
                 </div>
                 
                 <div className="bugCardInfo">
@@ -25,7 +25,7 @@ function BugCard(props){
         return (
             <div>
                 <p>Oop... guess we couldn't find anything for this search</p>
-                <img src="https://media.giphy.com/media/dnRljdZNQ2HkTl75sk/giphy.gif"/>
+                <img alt='' src="https://media.giphy.com/media/dnRljdZNQ2HkTl75sk/giphy.gif"/>
             </div>
         )
     } else if (resultPresent === null){ //user hasn't tried searching yet

@@ -2,8 +2,6 @@ import React from "react";
 import axios from "axios";
 
 function SavedCritter(props){
-    const resultPresent = props.resultPresent
-
     return (
         <div className="savedContainer">
             <h1>{props.critter.name}</h1>

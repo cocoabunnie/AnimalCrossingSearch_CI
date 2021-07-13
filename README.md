@@ -9,6 +9,8 @@ On the saved page, the names of the animals you chose to savd will appear in a l
 
 The site also has an "about" page, which gives you a little information about me and the purpose of the project as well as a list of lessons I've learned and skills I've gained while completing this project. 
 
+This project also has continuous integration implemented using GitHub Actions which is what the "CI" stands for in the repository name. Meaning, when anything is pushed to the main branch, the project is automatically checked for any warnings or errors to prevent any issues from happening when it's deployed/before it's too late. 
+
 Thank you for reading. I hope you like it!💜
 
 💚 The data from this project was provided by the ACNH API, which you can find here: http://acnhapi.com/ 

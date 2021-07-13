@@ -8,7 +8,6 @@ NOTES
 */
 test('renders learn react link', () => {
   render(<App />);
-  //const title = "Animal";
   const linkElement = screen.getByText('Animal', { exact: false })
   expect(linkElement).toBeInTheDocument();
 });
